@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Testsuite.LoginPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyTitle"/>
+          <include name="verifyUserProfileIconClickable"/>
+          <include name="verifyUserProfileIconRedirection"/>
+          <include name="verifySignInPage"/>
+        </methods>
+      </class> <!-- Testsuite.LoginPage -->
+      <class name="Testsuite.signUpTests">
+        <methods>
+          <include name="SignupInvalidEmail1"/>
+          <include name="SignupInvalidEmail2"/>
+          <include name="SignupInvalidEmail"/>
+          <include name="tearDown"/>
+          <include name="clear"/>
+          <include name="SignupEmptyLastName"/>
+          <include name="SignupCheckBox"/>
+          <include name="SignupEmptyEmail"/>
+          <include name="SignupEmptyFirstName"/>
+        </methods>
+      </class> <!-- Testsuite.signUpTests -->
+      <class name="Testsuite.SignInTests">
+        <methods>
+          <include name="passwordEmpty"/>
+          <include name="verifyUserNotFound"/>
+          <include name="passwordIncorrect"/>
+          <include name="tearDown"/>
+          <include name="usernameEmpty"/>
+          <include name="verifyUserFound"/>
+        </methods>
+      </class> <!-- Testsuite.SignInTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-11T15:25:49 IST" name="Default suite" finished-at="2024-05-11T15:26:01 IST" duration-ms="11968">
+    <groups>
+    </groups>
+    <test started-at="2024-05-11T15:25:49 IST" name="Default test" finished-at="2024-05-11T15:26:01 IST" duration-ms="11968">
+      <class name="Testsuite.signUpTests">
+        <test-method is-config="true" signature="SignupInvalidEmail()[pri:0, instance:Testsuite.signUpTests@5fbdfdcf]" started-at="2024-05-11T15:25:41 IST" name="SignupInvalidEmail" finished-at="2024-05-11T15:25:49 IST" duration-ms="7977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupInvalidEmail -->
+        <test-method is-config="true" signature="clear()[pri:0, instance:Testsuite.signUpTests@5fbdfdcf]" started-at="2024-05-11T15:25:49 IST" name="clear" finished-at="2024-05-11T15:25:50 IST" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method signature="SignupInvalidEmail1()[pri:10, instance:Testsuite.signUpTests@5fbdfdcf]" started-at="2024-05-11T15:25:50 IST" name="SignupInvalidEmail1" finished-at="2024-05-11T15:25:51 IST" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupInvalidEmail1 -->
+        <test-method is-config="true" signature="clear()[pri:0, instance:Testsuite.signUpTests@5fbdfdcf]" started-at="2024-05-11T15:25:51 IST" name="clear" finished-at="2024-05-11T15:25:52 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method signature="SignupInvalidEmail2()[pri:11, instance:Testsuite.signUpTests@5fbdfdcf]" started-at="2024-05-11T15:25:52 IST" name="SignupInvalidEmail2" finished-at="2024-05-11T15:25:53 IST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupInvalidEmail2 -->
+        <test-method is-config="true" signature="clear()[pri:0, instance:Testsuite.signUpTests@5fbdfdcf]" started-at="2024-05-11T15:25:53 IST" name="clear" finished-at="2024-05-11T15:25:54 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method signature="SignupEmptyFirstName()[pri:12, instance:Testsuite.signUpTests@5fbdfdcf]" started-at="2024-05-11T15:25:54 IST" name="SignupEmptyFirstName" finished-at="2024-05-11T15:25:55 IST" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupEmptyFirstName -->
+        <test-method is-config="true" signature="clear()[pri:0, instance:Testsuite.signUpTests@5fbdfdcf]" started-at="2024-05-11T15:25:55 IST" name="clear" finished-at="2024-05-11T15:25:55 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method signature="SignupEmptyLastName()[pri:13, instance:Testsuite.signUpTests@5fbdfdcf]" started-at="2024-05-11T15:25:55 IST" name="SignupEmptyLastName" finished-at="2024-05-11T15:25:56 IST" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupEmptyLastName -->
+        <test-method is-config="true" signature="clear()[pri:0, instance:Testsuite.signUpTests@5fbdfdcf]" started-at="2024-05-11T15:25:56 IST" name="clear" finished-at="2024-05-11T15:25:57 IST" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method signature="SignupEmptyEmail()[pri:14, instance:Testsuite.signUpTests@5fbdfdcf]" started-at="2024-05-11T15:25:57 IST" name="SignupEmptyEmail" finished-at="2024-05-11T15:25:58 IST" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupEmptyEmail -->
+        <test-method is-config="true" signature="clear()[pri:0, instance:Testsuite.signUpTests@5fbdfdcf]" started-at="2024-05-11T15:25:58 IST" name="clear" finished-at="2024-05-11T15:25:58 IST" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method signature="SignupCheckBox()[pri:15, instance:Testsuite.signUpTests@5fbdfdcf]" started-at="2024-05-11T15:25:58 IST" name="SignupCheckBox" finished-at="2024-05-11T15:26:01 IST" duration-ms="3236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupCheckBox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testsuite.signUpTests@5fbdfdcf]" started-at="2024-05-11T15:26:01 IST" name="tearDown" finished-at="2024-05-11T15:26:02 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testsuite.signUpTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
